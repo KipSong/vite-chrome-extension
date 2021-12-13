@@ -203,7 +203,7 @@ export default defineConfig({
 ### 开始优化页面
 一个简单的插件框架已经做好了，接下来我们可以进行对于页面进行修改。
 我们可以从库开始选择我们想完成的一款 Chrome 扩展程序，去安装一下吧
-ant-desin、less、react-router-dom。
+ant-design、less、react-router-dom。
 #### 安装依赖
 ```shell
 npm install antd
