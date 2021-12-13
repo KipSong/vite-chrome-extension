@@ -1,0 +1,27 @@
+{
+  "name": "vite-chrome-extension",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "^4.17.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.170",
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "less": "^4.1.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.1",
+    "vite-plugin-style-import": "^1.4.0"
+  }
+}

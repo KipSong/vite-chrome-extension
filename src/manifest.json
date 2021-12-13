@@ -1,0 +1,36 @@
+{
+  "name": "Vite Chrome Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    },
+    "default_title": "Popup",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "matches": [
+      "http://localhost/*"
+    ],
+    "service_worker": "background.js"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://localhost/*"
+      ],
+      "js": [
+        "contentScript.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "host_permissions": [
+    "https://*/"
+  ]
+}
