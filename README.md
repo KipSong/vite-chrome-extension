@@ -121,8 +121,8 @@ npm install rollup-plugin-copy -D
 ```
 
 #### 配置 tsconfig.ts
-```javascript
 安装依赖中的chrome类型导入到开发中。
+```javascript
 {
   "compilerOptions": {
     "baseUrl": "./",
@@ -153,8 +153,9 @@ npm install rollup-plugin-copy -D
 ```
 
 #### 修改 vite.config.ts
-```javascript
 主要是使用了copy + entry 的方式去进行输出到dist文件中。
+
+```javascript
 import { defineConfig } from "vite";
 import { resolve } from "path";
 import react from "@vitejs/plugin-react";
