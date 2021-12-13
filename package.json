@@ -1,6 +1,11 @@
 {
   "name": "vite-chrome-extension",
-  "version": "0.0.0",
+  "description": "又快又爽的开发 Chrome 扩展程序应用",
+  "version": "0.0.1",
+  "author": {
+    "name": "Kip",
+    "email": "kipsong@sina.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
